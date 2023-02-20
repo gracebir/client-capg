@@ -14,7 +14,7 @@ function Hero() {
         </p>
         <a
           className="px-16 py-4 bg-bgGreen text-white font-poppins font-semibold rounded-full transition ease-in-out duration-300 hover:bg-lime-700"
-          href=""
+          href="#contacte"
         >
           Contactez nous
         </a>

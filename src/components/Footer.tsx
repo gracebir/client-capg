@@ -3,10 +3,10 @@ import { BsTelephoneFill, BsFacebook, BsTwitter, BsInstagram } from "react-icons
 
 function Footer() {
   return (
-    <footer className="w-full bg-primary text-white py-8 px-6">
-      <div className="max-w-7xl mx-auto flex flex-col-reverse gap-8 items-center md:flex md:justify-between">
-        <div className="flex flex-col gap-4 items-center">
-          <a className="flex items-center font-semibold" href="#hero">
+    <footer className="w-full bg-primary text-white py-8">
+      <div className="flex flex-col-reverse gap-8 items-center md:items-start md:max-w-7xl md:px-16 md:mx-auto md:flex md:flex-row md:justify-between">
+        <div className="flex flex-col gap-4 items-center md:items-start">
+        <a className="flex items-center font-semibold" href="#hero">
             <img
               className="h-10"
               src="https://i.ibb.co/YfKbFYG/logo.png"
@@ -16,7 +16,7 @@ function Footer() {
               CAPG
             </span>
           </a>
-          <p className="text-center">
+          <p className="text-center md:text-start md:w-1/2">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
             magnam cum, iste molestiae culpa officia ipsam! Quos deserunt,
             perferendis sed, quas magnam
@@ -37,13 +37,13 @@ function Footer() {
           </div>
           {/* social */}
           <div className="flex gap-4">
-            <a href="">
+            <a href="facebook">
                 <BsFacebook size={30}/>
             </a>
-            <a href="">
+            <a href="twitter">
                 <BsTwitter size={30}/>
             </a>
-            <a href="">
+            <a href="instagram">
                 <BsInstagram size={30}/>
             </a>
           </div>
