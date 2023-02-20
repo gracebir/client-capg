@@ -1,9 +1,10 @@
 import React from 'react';
+import RouteCo from './routes';
 
 function App() {
   return (
-    <div className="App">
-      
+    <div>
+      <RouteCo/>
     </div>
   );
 }
