@@ -22,7 +22,7 @@ function NavBar() {
 
   const handleToggle = () => setIsToggle(!isToggled)
   return (
-    <header className="w-full flex px-4 py-4 h-[10vh] justify-between border z-auto items-center md:max-w-7xl md:mx-auto md:px-16 md:py-10 text-primary">
+    <header className="w-full flex px-4 py-4 h-[10vh] justify-between z-auto items-center md:max-w-7xl md:mx-auto md:px-16 md:py-10 text-primary">
       <div className="flex justify-between items-center w-full md:w-fit">
         <a className="flex items-center font-semibold" href="#hero">
           <img
@@ -40,7 +40,7 @@ function NavBar() {
       </div>
 
       <div className={isToggled ?
-        `transition-all opacity-100 ease-in duration-500 flex flex-col top-14 bg-white md:mt-0 w-full md:right-0 md:flex-row md:w-fit px-4 left-0 absolute` :
+        `transition-all opacity-100 ease-in duration-500 flex flex-col top-20 bg-white md:mt-0 w-full md:right-0 md:flex-row md:w-fit px-4 left-0 absolute` :
         `flex flex-col md:mt-0 md:flex md:gap-7 md:items-center md:static absolute w-full md:flex-row left-0 md:right-0 md:w-fit md:opacity-100 top-[-200px] md:top-0 transition-all opacity-0 ease-in duration-500`
       }>
         {navItems.map((item, i) => (

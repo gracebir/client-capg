@@ -3,7 +3,7 @@ import { BsTelephoneFill, BsFacebook, BsTwitter, BsInstagram } from "react-icons
 
 function Footer() {
   return (
-    <footer className="w-full bg-primary text-white py-8">
+    <footer className="w-full bg-primary text-white py-8 px-4">
       <div className="flex flex-col-reverse gap-8 items-center md:items-start md:max-w-7xl md:px-16 md:mx-auto md:flex md:flex-row md:justify-between">
         <div className="flex flex-col gap-4 items-center md:items-start">
         <a className="flex items-center font-semibold" href="#hero">
